@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - "node"
   - "13.8.0"
 before_install:
   - npm install
 script:
-  - karma start --single-run
+  - npm run unit
